@@ -1,0 +1,36 @@
+*{
+    box-sizing: inherit;
+    padding:0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;    
+}
+.btn{
+    display: block;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    min-width: 123px;
+    min-height: 25px;   
+    /* line-height: 25px; */
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.btn--color{
+    padding:10px;
+    background-color:#b27cb8;
+}
+
+@keyframes anime{
+    0%{filter: brightness(1);}
+    100%{filter: brightness(1.2);}
+}
